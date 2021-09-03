@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B672E43826E1925800FC71B2 /* CollapsibleHeaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672E43726E1925800FC71B2 /* CollapsibleHeaderApp.swift */; };
+		B672E43A26E1925800FC71B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672E43926E1925800FC71B2 /* ContentView.swift */; };
+		B672E43C26E1925A00FC71B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B672E43B26E1925A00FC71B2 /* Assets.xcassets */; };
+		B672E43F26E1925A00FC71B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B672E43E26E1925A00FC71B2 /* Preview Assets.xcassets */; };
+		B672E44A26E1925B00FC71B2 /* CollapsibleHeaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672E44926E1925B00FC71B2 /* CollapsibleHeaderTests.swift */; };
+		B672E45526E1925B00FC71B2 /* CollapsibleHeaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672E45426E1925B00FC71B2 /* CollapsibleHeaderUITests.swift */; };
+		B672E46326E1937D00FC71B2 /* CollapsibleHeaderScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672E46226E1937D00FC71B2 /* CollapsibleHeaderScrollView.swift */; };
+		B672E46526E1975900FC71B2 /* OffsetViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672E46426E1975900FC71B2 /* OffsetViewModifier.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B672E44626E1925B00FC71B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B672E42C26E1925800FC71B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B672E43326E1925800FC71B2;
+			remoteInfo = CollapsibleHeader;
+		};
+		B672E45126E1925B00FC71B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B672E42C26E1925800FC71B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B672E43326E1925800FC71B2;
+			remoteInfo = CollapsibleHeader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B672E43426E1925800FC71B2 /* CollapsibleHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollapsibleHeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B672E43726E1925800FC71B2 /* CollapsibleHeaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleHeaderApp.swift; sourceTree = "<group>"; };
+		B672E43926E1925800FC71B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B672E43B26E1925A00FC71B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B672E43E26E1925A00FC71B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B672E44026E1925A00FC71B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B672E44526E1925B00FC71B2 /* CollapsibleHeaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollapsibleHeaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B672E44926E1925B00FC71B2 /* CollapsibleHeaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleHeaderTests.swift; sourceTree = "<group>"; };
+		B672E44B26E1925B00FC71B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B672E45026E1925B00FC71B2 /* CollapsibleHeaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollapsibleHeaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B672E45426E1925B00FC71B2 /* CollapsibleHeaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleHeaderUITests.swift; sourceTree = "<group>"; };
+		B672E45626E1925B00FC71B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B672E46226E1937D00FC71B2 /* CollapsibleHeaderScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleHeaderScrollView.swift; sourceTree = "<group>"; };
+		B672E46426E1975900FC71B2 /* OffsetViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetViewModifier.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B672E43126E1925800FC71B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B672E44226E1925B00FC71B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B672E44D26E1925B00FC71B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B672E42B26E1925800FC71B2 = {
+			isa = PBXGroup;
+			children = (
+				B672E43626E1925800FC71B2 /* CollapsibleHeader */,
+				B672E44826E1925B00FC71B2 /* CollapsibleHeaderTests */,
+				B672E45326E1925B00FC71B2 /* CollapsibleHeaderUITests */,
+				B672E43526E1925800FC71B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B672E43526E1925800FC71B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B672E43426E1925800FC71B2 /* CollapsibleHeader.app */,
+				B672E44526E1925B00FC71B2 /* CollapsibleHeaderTests.xctest */,
+				B672E45026E1925B00FC71B2 /* CollapsibleHeaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B672E43626E1925800FC71B2 /* CollapsibleHeader */ = {
+			isa = PBXGroup;
+			children = (
+				B672E43726E1925800FC71B2 /* CollapsibleHeaderApp.swift */,
+				B672E43926E1925800FC71B2 /* ContentView.swift */,
+				B672E43B26E1925A00FC71B2 /* Assets.xcassets */,
+				B672E44026E1925A00FC71B2 /* Info.plist */,
+				B672E43D26E1925A00FC71B2 /* Preview Content */,
+				B672E46226E1937D00FC71B2 /* CollapsibleHeaderScrollView.swift */,
+				B672E46426E1975900FC71B2 /* OffsetViewModifier.swift */,
+			);
+			path = CollapsibleHeader;
+			sourceTree = "<group>";
+		};
+		B672E43D26E1925A00FC71B2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B672E43E26E1925A00FC71B2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B672E44826E1925B00FC71B2 /* CollapsibleHeaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				B672E44926E1925B00FC71B2 /* CollapsibleHeaderTests.swift */,
+				B672E44B26E1925B00FC71B2 /* Info.plist */,
+			);
+			path = CollapsibleHeaderTests;
+			sourceTree = "<group>";
+		};
+		B672E45326E1925B00FC71B2 /* CollapsibleHeaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B672E45426E1925B00FC71B2 /* CollapsibleHeaderUITests.swift */,
+				B672E45626E1925B00FC71B2 /* Info.plist */,
+			);
+			path = CollapsibleHeaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B672E43326E1925800FC71B2 /* CollapsibleHeader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B672E45926E1925B00FC71B2 /* Build configuration list for PBXNativeTarget "CollapsibleHeader" */;
+			buildPhases = (
+				B672E43026E1925800FC71B2 /* Sources */,
+				B672E43126E1925800FC71B2 /* Frameworks */,
+				B672E43226E1925800FC71B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollapsibleHeader;
+			productName = CollapsibleHeader;
+			productReference = B672E43426E1925800FC71B2 /* CollapsibleHeader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B672E44426E1925B00FC71B2 /* CollapsibleHeaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B672E45C26E1925B00FC71B2 /* Build configuration list for PBXNativeTarget "CollapsibleHeaderTests" */;
+			buildPhases = (
+				B672E44126E1925B00FC71B2 /* Sources */,
+				B672E44226E1925B00FC71B2 /* Frameworks */,
+				B672E44326E1925B00FC71B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B672E44726E1925B00FC71B2 /* PBXTargetDependency */,
+			);
+			name = CollapsibleHeaderTests;
+			productName = CollapsibleHeaderTests;
+			productReference = B672E44526E1925B00FC71B2 /* CollapsibleHeaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B672E44F26E1925B00FC71B2 /* CollapsibleHeaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B672E45F26E1925B00FC71B2 /* Build configuration list for PBXNativeTarget "CollapsibleHeaderUITests" */;
+			buildPhases = (
+				B672E44C26E1925B00FC71B2 /* Sources */,
+				B672E44D26E1925B00FC71B2 /* Frameworks */,
+				B672E44E26E1925B00FC71B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B672E45226E1925B00FC71B2 /* PBXTargetDependency */,
+			);
+			name = CollapsibleHeaderUITests;
+			productName = CollapsibleHeaderUITests;
+			productReference = B672E45026E1925B00FC71B2 /* CollapsibleHeaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B672E42C26E1925800FC71B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B672E43326E1925800FC71B2 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B672E44426E1925B00FC71B2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B672E43326E1925800FC71B2;
+					};
+					B672E44F26E1925B00FC71B2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B672E43326E1925800FC71B2;
+					};
+				};
+			};
+			buildConfigurationList = B672E42F26E1925800FC71B2 /* Build configuration list for PBXProject "CollapsibleHeader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B672E42B26E1925800FC71B2;
+			productRefGroup = B672E43526E1925800FC71B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B672E43326E1925800FC71B2 /* CollapsibleHeader */,
+				B672E44426E1925B00FC71B2 /* CollapsibleHeaderTests */,
+				B672E44F26E1925B00FC71B2 /* CollapsibleHeaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B672E43226E1925800FC71B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B672E43F26E1925A00FC71B2 /* Preview Assets.xcassets in Resources */,
+				B672E43C26E1925A00FC71B2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B672E44326E1925B00FC71B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B672E44E26E1925B00FC71B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B672E43026E1925800FC71B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B672E46526E1975900FC71B2 /* OffsetViewModifier.swift in Sources */,
+				B672E46326E1937D00FC71B2 /* CollapsibleHeaderScrollView.swift in Sources */,
+				B672E43A26E1925800FC71B2 /* ContentView.swift in Sources */,
+				B672E43826E1925800FC71B2 /* CollapsibleHeaderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B672E44126E1925B00FC71B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B672E44A26E1925B00FC71B2 /* CollapsibleHeaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B672E44C26E1925B00FC71B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B672E45526E1925B00FC71B2 /* CollapsibleHeaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B672E44726E1925B00FC71B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B672E43326E1925800FC71B2 /* CollapsibleHeader */;
+			targetProxy = B672E44626E1925B00FC71B2 /* PBXContainerItemProxy */;
+		};
+		B672E45226E1925B00FC71B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B672E43326E1925800FC71B2 /* CollapsibleHeader */;
+			targetProxy = B672E45126E1925B00FC71B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B672E45726E1925B00FC71B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B672E45826E1925B00FC71B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B672E45A26E1925B00FC71B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CollapsibleHeader/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CollapsibleHeader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icu.bughub.app.CollapsibleHeader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B672E45B26E1925B00FC71B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CollapsibleHeader/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CollapsibleHeader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icu.bughub.app.CollapsibleHeader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B672E45D26E1925B00FC71B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CollapsibleHeaderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icu.bughub.app.CollapsibleHeaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollapsibleHeader.app/CollapsibleHeader";
+			};
+			name = Debug;
+		};
+		B672E45E26E1925B00FC71B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CollapsibleHeaderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icu.bughub.app.CollapsibleHeaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollapsibleHeader.app/CollapsibleHeader";
+			};
+			name = Release;
+		};
+		B672E46026E1925B00FC71B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CollapsibleHeaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icu.bughub.app.CollapsibleHeaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CollapsibleHeader;
+			};
+			name = Debug;
+		};
+		B672E46126E1925B00FC71B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CollapsibleHeaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icu.bughub.app.CollapsibleHeaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CollapsibleHeader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B672E42F26E1925800FC71B2 /* Build configuration list for PBXProject "CollapsibleHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B672E45726E1925B00FC71B2 /* Debug */,
+				B672E45826E1925B00FC71B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B672E45926E1925B00FC71B2 /* Build configuration list for PBXNativeTarget "CollapsibleHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B672E45A26E1925B00FC71B2 /* Debug */,
+				B672E45B26E1925B00FC71B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B672E45C26E1925B00FC71B2 /* Build configuration list for PBXNativeTarget "CollapsibleHeaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B672E45D26E1925B00FC71B2 /* Debug */,
+				B672E45E26E1925B00FC71B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B672E45F26E1925B00FC71B2 /* Build configuration list for PBXNativeTarget "CollapsibleHeaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B672E46026E1925B00FC71B2 /* Debug */,
+				B672E46126E1925B00FC71B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B672E42C26E1925800FC71B2 /* Project object */;
+}
